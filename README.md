@@ -12,6 +12,8 @@ Like a cellphone, one can tap the screen to capture a snapshot.
 This project uploads the snapshot to a host computer 
 (but could be modified to save it in SPIFFS / onto a Micro SD card). 
 
+There is a 2 minute video at https://youtu.be/3Ga8L9qx-Yk 
+
 Some readers might have seen my previous project at
  https://github.com/cspwcspw/ESP32_CamToLCD. It might be necessary to 
  look at that writeup to get more background to what I cover here. 
@@ -195,6 +197,7 @@ But that pathway introduces latency of 4 x ESP32 clocks - equivalent to a whole
 XCLK pulse. The risk of having PCLK arriving much later than its data at the 
 LCD ruled out this approach.
 
+See the 2 minute video at https://youtu.be/3Ga8L9qx-Yk 
 
 Enjoy. 
 
